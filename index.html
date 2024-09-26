@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LibreTools AI Assistant Plugin Documentation</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+<body>
+    <h1>LibreTools AI Assistant Plugin Documentation</h1>
+    <div class="intro">
+        <p>The primary goal of LibreTools is to seamlessly integrate a program called LMStudio into LibreOffice, allowing users to run large language models (LLMs) locally on their machines. LMStudio will utilise the local computer's GPU to efficiently process and serve these models. To ensure smooth operation and easy access, LibreTools will feature a user-friendly GUI that connects directly to the LLM's IP address. This connection can be established either through the local intranet or using a service like ngrok for remote access.</p>
+        <p>By leveraging local hardware and providing a straightforward interface, LibreTools aims to make advanced AI capabilities accessible to all users, without the need for expensive cloud services or complex setup procedures. This approach not only enhances the functionality of LibreOffice but also ensures that users maintain control over their data and resources, aligning with the principles of privacy and open-source development.</p>
+    </div>
+    
+    <h2>Installation Instructions</h2>
+    
+    <div class="step">
+        <h3>Step 1: Install LM Studio</h3>
+        <p>Download and install LM Studio from <a href="https://releases.lmstudio.ai/win32/x86/0.3.2/2/LM-Studio-0.3.2-Setup.exe">this link</a>.</p>
+        
+    </div>
+    
+    <div class="step">
+        <h3>Step 2: Download the LLM Model</h3>
+        <p>Download the required LLM model. <a href="https://lmstudio.ai/docs/basics/download-model">this link</a></p>
+    </div>
+    
+    <div class="step">
+        <h3>Step 3: Download LibreOffice</h3>
+        <p>Download and install LibreOffice from <a href="https://www.libreoffice.org/download/download-libreoffice/">the official LibreOffice website</a>.</p>
+    </div>
+    
+    <div class="step">
+        <h3>Step 4: Clone the Repository</h3>
+        <ol>
+            <li>Open a Terminal or Command Prompt.</li>
+            <li>Navigate to the directory where you want to clone the project using the <code>cd</code> command. For example: <code>cd ~</code></li>
+            <li>Clone the repository using the following command :
+                <br><code>git clone git clone https://dagshub.com/Omdena/NorthCarolinaUSAChapter_LibreToolsAIAssistantPlugin.git</code></li>
+        </ol>
+    </div>
+    
+    <div class="step">
+        <h3>Step 5: Copy the Python Script</h3>
+        <p>Run the following command in the command line :</p>
+        <code>copy "C:\Path\To\Your\scriptlocatepython.py" "C:\Program Files\LibreOffice\share\Scripts\python"</code>
+    </div>
+    
+    <div class="step">
+        <h3>Step 6: Load the Dialog File</h3>
+        <ol>
+            <li>Open LibreOffice and create a new file.</li>
+            <li>In the navigation bar, go to Tools > Macros > Organize Dialogs.</li>
+            <li>Select "Libraries" and click "Edit".</li>
+            <li>Go to File (in navbar) > Import Dialog.</li>
+            <ul class="image-list">
+                a
+                <li><a href="images\1.png" target="_blank"><img src="images\1.png" alt="Image 1"></a></li>
+                <li><a href="images\2.png" target="_blank"><img src="images\2.png" alt="Image 2"></a></li>
+                <li><a href="images\3.png" target="_blank"><img src="images\3.png" alt="Image 3"></a></li>
+            </ul>
+        </ol>
+    </div>
+    
+    <div class="step">
+        <h3>Step 7: Run LM Studio Server</h3>
+        <p>Open LM Studio and start the server.</p>
+        <a href="images\4.png" target="_blank"><img class="image" src="images\4.png" alt="Image 4"></a>
+        
+    </div>
+    
+    <div class="step">
+        <h3>Step 8: Run the Macro</h3>
+        <p>In LibreOffice, go to Tools > Macros > Run Macro > script locate python > Main</p>
+        <ul class="image-list">
+            a
+            <li><a href="images\5.png" target="_blank"><img src="images\5.png" alt="Image 5"></a></li>
+            <li><a href="images\6.png" target="_blank"><img src="images\6.png" alt="Image 6"></a></li>
+        </ul>
+    </div>
+    
+    <div class="note">
+        <h3>Note</h3>
+        <p>These instructions are specific for windows . You may need to adjust some steps based on your specific operating system or setup.</p>
+    </div>
+</body>
+</html>
