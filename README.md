@@ -46,8 +46,9 @@ Open LM Studio and start the server.
 
 Step 8: Run the Macro
 In LibreOffice, go to Tools > Macros > Run Macro > script locate python > Main
-<a href="5.png" target="_blank"><img src="5.png" alt="Image 5"></a></li>
-<a href="6.png" target="_blank"><img src="6.png" alt="Image 6"></a></li>
+<a href="5.png" target="_blank"><img src="5.png" alt="Image 5"></a>
+
+<a href="6.png" target="_blank"><img src="6.png" alt="Image 6"></a>
 
 
 #Note
