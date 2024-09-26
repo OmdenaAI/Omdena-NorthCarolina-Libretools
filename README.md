@@ -8,7 +8,7 @@ The primary goal of LibreTools is to seamlessly integrate a program called LMStu
         
 By leveraging local hardware and providing a straightforward interface, LibreTools aims to make advanced AI capabilities accessible to all users, without the need for expensive cloud services or complex setup procedures. This approach not only enhances the functionality of LibreOffice but also ensures that users maintain control over their data and resources, aligning with the principles of privacy and open-source development.
     
-##Installation Instructions
+#Installation Instructions
     
 Step 1: Install LM Studio
 Download and install LM Studio from <a href="https://releases.lmstudio.ai/win32/x86/0.3.2/2/LM-Studio-0.3.2-Setup.exe">this link</a>
@@ -44,11 +44,11 @@ Open LM Studio and start the server.
         
     
 
-Step 8: Run the Macro<
+Step 8: Run the Macro
 In LibreOffice, go to Tools > Macros > Run Macro > script locate python > Main
 <a href="images\5.png" target="_blank"><img src="images\5.png" alt="Image 5"></a></li>
 <a href="images\6.png" target="_blank"><img src="images\6.png" alt="Image 6"></a></li>
 
 
-###Note
+#Note
 These instructions are specific for windows . You may need to adjust some steps based on your specific operating system or setup.
