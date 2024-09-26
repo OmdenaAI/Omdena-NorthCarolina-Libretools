@@ -33,9 +33,9 @@ In the navigation bar, go to Tools > Macros > Organize Dialogs.
 Select "Libraries" and click "Edit".
 Go to File (in navbar) > Import Dialog.
       
-<a href="1.png" target="_blank"><img src="1.png" alt="Image 1"></a></li>
-<a href="2.png" target="_blank"><img src="2.png" alt="Image 2"></a></li>
-<a href="3.png" target="_blank"><img src="3.png" alt="Image 3"></a></li>
+<a href="1.png" target="_blank"><img src="1.png" alt="Image 1"></a>
+<a href="2.png" target="_blank"><img src="2.png" alt="Image 2"></a>
+<a href="3.png" target="_blank"><img src="3.png" alt="Image 3"></a>
 
 
 Step 7: Run LM Studio Server
