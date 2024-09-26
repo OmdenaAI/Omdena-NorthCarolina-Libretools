@@ -48,7 +48,6 @@ Step 8: Run the Macro
 In LibreOffice, go to Tools > Macros > Run Macro > script locate python > Main
 <img src="5.png" alt="Image 5">
 
-<img src="6.png" alt="Image 6">
 
 
 #Note
