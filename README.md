@@ -33,22 +33,22 @@ In the navigation bar, go to Tools > Macros > Organize Dialogs.
 Select "Libraries" and click "Edit".
 Go to File (in navbar) > Import Dialog.
       
-<a href="1.png" target="_blank"><img src="1.png" alt="Image 1"></a>
-<a href="2.png" target="_blank"><img src="2.png" alt="Image 2"></a>
-<a href="3.png" target="_blank"><img src="3.png" alt="Image 3"></a>
+<img src="1.png" alt="Image 1">
+<img src="2.png" alt="Image 2">
+<img src="3.png" alt="Image 3">
 
 
 Step 7: Run LM Studio Server
 Open LM Studio and start the server.
-        <a href="4.png" target="_blank"><img class="image" src="4.png" alt="Image 4"></a>
+<img class="image" src="4.png" alt="Image 4">
         
     
 
 Step 8: Run the Macro
 In LibreOffice, go to Tools > Macros > Run Macro > script locate python > Main
-<a href="5.png" target="_blank"><img src="5.png" alt="Image 5"></a>
+<img src="5.png" alt="Image 5">
 
-<a href="6.png" target="_blank"><img src="6.png" alt="Image 6"></a>
+<img src="6.png" alt="Image 6">
 
 
 #Note
